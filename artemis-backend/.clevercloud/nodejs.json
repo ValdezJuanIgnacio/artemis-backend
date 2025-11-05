@@ -1,0 +1,12 @@
+{
+  "deploy": {
+    "env": "production"
+  },
+  "build": {
+    "type": "npm",
+    "folder": "."
+  },
+  "hooks": {
+    "postDeploy": "echo 'Deployment successful!'"
+  }
+}
